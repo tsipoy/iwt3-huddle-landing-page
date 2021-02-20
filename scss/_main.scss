@@ -2,5 +2,11 @@ main {
     text-align: center;
     padding-inline-end: 18px;
     padding-inline-start: 18px;
+}
 
+@media(min-width: 800px) {
+    main {
+        padding-inline-end: 0;
+        padding-inline-start: 0;
+    }
 }

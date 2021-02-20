@@ -1,0 +1,23 @@
+.curved_section_content__get_started{
+    padding-block-end: 100px;
+    padding-block-start: 50px;
+}
+
+.curved_section_content__get_started__title {
+    padding-block-end: 32px;
+}
+
+.curved_section_content__get_started__link {
+    background-color: #ff52c1;
+    color: #ffffff;
+    padding-inline-end: 32px;
+    padding-inline-start: 33px;
+    padding-block-end: 16px;
+    padding-block-start: 16px;
+    border-radius: 25px;
+}
+
+.curved_section_content__get_started__link:hover {
+    box-shadow: 0 2px 5px #aca5a9;
+    transition: .3s ease-out;
+}

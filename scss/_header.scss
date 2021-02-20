@@ -1,6 +1,7 @@
 .curved_section_header {
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
     align-items: center;
     padding-block-start: 32px;
     padding-block-end: 50px;
@@ -9,7 +10,6 @@
 
 .curved_section_header_heading__link {
     margin-inline-start: -40px;
-    padding-inline-end: 32px;
  }
 
 .curved_section_header_heading__logo {
@@ -28,4 +28,10 @@
 
 .curved_section_header__try_free_link:hover {
     box-shadow: 0 0 2px #ff52c1;
+}
+
+@media(min-width: 800px) {
+    .curved_section_header {
+        justify-content: space-between;
+    }
 }
