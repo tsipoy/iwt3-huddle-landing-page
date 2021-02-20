@@ -46,3 +46,44 @@ main {
   text-align: center;
   padding-inline-end: 18px;
   padding-inline-start: 18px; }
+
+.curved_section_content__build_communication__title {
+  padding-block-end: 32px;
+  padding-block-start: 32px;
+  max-width: 300px; }
+
+.curved_section_content__build_communication__description {
+  padding-block-end: 32px; }
+
+.curved_section_content__build_communication__get_started {
+  background-color: #ff52c1;
+  color: #ffffff;
+  padding-inline-end: 32px;
+  padding-inline-start: 33px;
+  padding-block-end: 16px;
+  padding-block-start: 16px;
+  border-radius: 25px; }
+
+.curved_section_content__build_communication__get_started:hover {
+  box-shadow: 0 2px 5px #aca5a9; }
+
+.curved_section_content__build_communication__image {
+  padding-block-start: 100px; }
+
+.curved_section_content__build_communication__icon {
+  max-width: 10%; }
+
+.curved_section_content__build_communication__navigation__lists {
+  padding-block-end: 50px;
+  padding-block-start: 50px;
+  padding-inline-start: 0; }
+
+.curved_section_content__build_communication__navigation__link_wrapper {
+  margin-inline-start: -110px;
+  padding-block-start: 50px; }
+
+.curved_section_content__build_communication__navigation__number {
+  font-size: 72px; }
+
+.curved_section_content__build_communication__navigation__text {
+  color: #3e52a3; }
