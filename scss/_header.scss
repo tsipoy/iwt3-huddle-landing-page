@@ -1,0 +1,31 @@
+.curved_section_header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-block-start: 32px;
+    padding-block-end: 50px;
+    text-align: center;
+}
+
+.curved_section_header_heading__link {
+    margin-inline-start: -40px;
+    padding-inline-end: 32px;
+ }
+
+.curved_section_header_heading__logo {
+    width: 50%;
+}
+
+.curved_section_header__try_free_link {
+    color: #ff52c1;
+    padding-inline-end: 16px;
+    padding-inline-start: 17px;
+    padding-block-end: 5px;
+    padding-block-start: 6px;
+    border: #ff52c1 1px solid;
+    border-radius: 20px;
+}
+
+.curved_section_header__try_free_link:hover {
+    box-shadow: 0 0 2px #ff52c1;
+}
