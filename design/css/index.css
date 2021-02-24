@@ -123,7 +123,8 @@ main {
 
 .curved_section_content__activities__article
 .curved_section_content__activities__article__wrapper {
-  background-color: #f6fbff; }
+  background-color: #f6fbff;
+  margin-block-end: -67px; }
 
 .curved_section_content__activities__article:nth-of-type(2) .curved_section_content__activities__article__wrapper {
   background-color: transparent; }
@@ -143,11 +144,11 @@ main {
   background-image: url("../images/bg-section-top-mobile-2.svg"), url("../images/bg-section-bottom-mobile-2.svg");
   background-repeat: no-repeat, no-repeat;
   background-size: 100%, 100%;
-  background-position-y: 0%, 107%;
+  background-position-y: 0%, 100%;
   padding-block-start: 26%; }
 
 .curved_section_content__activities__article:nth-of-type(3) .curved_section_content__activities__article__description {
-  margin-block-end: -57px;
+  margin-block-end: 16%;
   padding-block-end: 63px; }
 
 @media (min-width: 800px) {
