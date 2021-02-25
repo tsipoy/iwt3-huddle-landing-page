@@ -10,7 +10,7 @@
 
 .curved_section_header_heading__link {
     margin-inline-start: -40px;
- }
+}
 
 .curved_section_header_heading__logo {
     width: 50%;
@@ -30,8 +30,21 @@
     box-shadow: 0 0 2px #ff52c1;
 }
 
-@media(min-width: 800px) {
+@media (min-width: 800px) {
     .curved_section_header {
         justify-content: space-between;
+        padding-inline-start: 140px;
+        padding-inline-end: 100px;
     }
+
+    .curved_section_header_heading__logo {
+        width: 100%;
+    }
+
+    .curved_section_header__try_free_link {
+        padding-inline-end: 32px;
+        padding-inline-start: 33px;
+        padding-block-end: 10px;
+        padding-block-start: 11px;
+     }
 }

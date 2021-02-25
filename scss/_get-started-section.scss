@@ -21,3 +21,10 @@
     box-shadow: 0 2px 5px #aca5a9;
     transition: .3s ease-out;
 }
+
+@media(min-width: 800px) {
+    .curved_section_content__get_started__title {
+        font-size: 32px;
+        padding-block-end: 32px;
+    }
+}

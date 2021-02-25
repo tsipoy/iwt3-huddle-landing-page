@@ -55,14 +55,25 @@
 }
 
 @media (min-width: 800px) {
+    .curved_section_content__build_communication {
+        max-width: inherit;
+        margin: auto;
+    }
+    
     .curved_section_content__build_communication__title {
         max-width: none;
+        font-size: 32px;
     }
 
     .curved_section_content__build_communication__description {
-        max-width: 432px;
+        max-width: 508px;
         margin: auto;
         padding-block-end: 54px;
+    }
+
+    .curved_section_content__build_communication__image__wrapper {
+        max-width: 700px;
+        margin: auto;
     }
 
     .curved_section_content__build_communication__navigation {
@@ -70,5 +81,10 @@
         flex-direction: row;
         justify-content: space-between;
         align-items: baseline;
+    }
+
+    .curved_section_content__build_communication__navigation {
+        max-width: 700px;
+        margin: auto;
     }
 }
